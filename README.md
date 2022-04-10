@@ -132,7 +132,7 @@ Operasi dasar aritmatika
         </script>
     </head>
     <body>
-        <input type="button" name="button1" value="arithmwtic" onclick=test(9,4)>
+        <input type="button" name="button1" value="arithmetic" onclick=test(9,4)>
     </body>
 </html>
 ```
