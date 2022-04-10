@@ -23,7 +23,7 @@ lalu lihat hasilnya
 
 ![Foto](Foto/foto1.png)
 
-## **Javascrip Dasar**
+## **Javascript Dasar**
 Pemakaian Alert sebagai property window.
 
 ```html <br>
