@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Validasi Form Javascript</title>
+</head>
+<body>
+  <center>
+    <h2>Validasi Register</h2>
+  </center>  
+  <br/>
+<form action="" method="post" onSubmit="return validasi_data(this)">
+<table border="0" width="400" align="center">
+  <tr>
+    <th align="left">Masukkan Nama</th>
+    <td>:</td>
+    <td><input type="text" name="nama" id="nama"></td>
+  </tr>
+    <tr>
+    <th align="left">Jenis Kelamin</th>
+    <td>:</td>
+    <td><input type="radio" name="jeniskelamin" value="L" id="jeniskelamin" checked="checked">Laki-laki
+        <input type="radio" name="jeniskelamin" value="P">Perempuan</td>
+  </tr>
+    <tr>
+    <th align="left">Tempat Lahir</th>
+    <td>:</td>
+    <td><input type="text" name="tempat" id="tempat"></td>
+  </tr>
+    </tr>
+    <tr>
+    <th align="left">Tahun Lahir</th>
+    <td>:</td>
+    <td><input type="date" name="tgl" id="tgl"></td>
+  </tr>
+  <tr>
+    <td colspan="3" align="center" height="50"><input type="submit" name="" id="" value="Register"></td>
+  </tr>
+</table>
+</form>
+</body>
+<script type="text/javascript">
+  function validasi_data(form) {  
+    if (form.nama.value=="") {
+      alert('nama  harus di isi !');
+      form.nama.focus();
+      return false;
+    }else if(form.tempat.value=="") {
+      alert('Tempat Lahir harus di isi !');
+      form.tempat.focus();
+      return false;
+    }
+  }
+</script>
+</html>
