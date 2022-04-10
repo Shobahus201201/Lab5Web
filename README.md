@@ -19,7 +19,7 @@ Persiapan membuat dokumen HTML dengan nama file `lab5_javascript.html` seperti b
 </body>
 </html>
 ```
-Hasilnya 
+lalu lihat hasilnya 
 
 ![Foto](Foto/foto1.png)
 
@@ -41,6 +41,8 @@ Pemakaian Alert sebagai property window.
     </body>
 </html>
 ```
+lalu lihat hasilnya
+
 ![Foto](Foto/foto2.png)
 
 ## **Pemakaian method dalam objek**
@@ -61,6 +63,8 @@ Pemakaian Alert sebagai property window.
     </body>
 </html>
 ```
+lalu lihat hasilnya
+
 ![Foto](Foto/foto3.png)
 
 ## **Pemakaian Prompt**
